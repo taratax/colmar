@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar</title>
-      <link rel='stylesheet' type='text/css' href='resources/css/style.css'>
+      <link rel='stylesheet' type='text/css' href='resources/css/style.css'  media="(min-width: 480px)">
+      <link rel="stylesheet" href="resources/css/mq-000-480.css" media="(max-width: 480px)">
   </head>
   <body>
     <!-- Header -->
-   <div class="siteHeader">
+   <div class="siteHeader ">
      <!-- This section gets pushed to the left side-->
      <div class="siteHeader_section">
        <div class="siteHeader_item siteHeader_logo">
@@ -18,12 +19,25 @@
      </div>
      <!-- This section gets pushed to the right side-->
     <div class="siteHeader__section">
-     <div class="siteHeader__item siteHeaderButton">On Campus</div>
-     <div class="siteHeader__item siteHeaderButton">On Line</div>
-     <div class="siteHeader__item siteHeaderButton">Or Companies</div>
-     <div class="siteHeader__item siteHeaderButton">Sign In</div>
+     <div class="siteHeader__item siteHeaderButton"><a href="#">On Campus</a></div>
+     <div class="siteHeader__item siteHeaderButton"><a href="#">On Line</a></div>
+     <div class="siteHeader__item siteHeaderButton"><a href="#">Or Companies</a></div>
+     <div class="siteHeader__item siteHeaderButton"><a href="#">Sign In</a></div>
  </div>
    </div>
+
+
+
+   <div class="siteHeader-sm">
+
+         <img src="resources/images/ic-logo.svg" alt="">
+         <img src="resources/images/ic-login.svg" alt="">
+         <img src="resources/images/ic-on-campus.svg" alt="">
+         <img src="resources/images/ic-online.svg" alt="">
+
+
+   </div>
+
 
    <!-- Learn something new everyday -->
    <div class="lsn_gray">
@@ -33,71 +47,299 @@
       <div class="lsn_gray_desc">
          <div class="he_pa">
             <h2>Learn something new everyday</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum pariatur minima deleniti quibusdam consequatur, a totam, minus harum veniam sit explicabo dolor, sint animi natus eveniet. Provident repellendus velit ad.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <p> Rerum pariatur minima deleniti quibusdam consequatur, </p>
          </div>
            <span class="button">Start here</span>
       </div>
    </div>
 
-    <!-- It does not hurt keep practicing -->
-<div class="dhkp_white">
-  <div class="column_1">
-    <!-- <div class="dhkp_img"> -->
-      <img src="resources/images/information-main.jpg" alt="">
 
+
+  <div class="lsn_gray-sm">
+    <div class="lsn_gray_pic-sm">
+      <img src="resources/images/banner.jpg" alt="">
+    </div>
+    <div class="lsn_gray_desc-sm">
+      <span class="txt-view-sm">
+      <h1>Learn something new everyday</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      <p> Rerum pariatur minima deleniti quibusdam consequatur, </p>
+      </span>
+      <span class="button-sm">Start here</span>
   </div>
-  <div class="column_2">
-      <div class="orientation">
-        <div class="cont1">
-          <img src="resources/images/information-orientation.jpg" alt="">
-        </div>
-        <div class="view2">
-          <h3>Orientation date</h3>
-          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-          <a href="#">Read more</a>
-        </div>
-      </div>
+</div>
 
-<!-- information-campus.jpg  -->
 
-      <div class="campus">
-         <div class="cont2">
-        <img src="resources/images/information-campus.jpg" alt="">
-        </div>
-        <div class="view2">
-          <h3>Our campus</h3>
-          <p>Find which campusis close by you</p>
-          <a href="#">Read more</a>
-        </div>
-
+    <!-- It does not hurt keep practicing -->
+  <div class="sec_sec">
+     <div class="sec_col1">
+      <div class="container_1">
+        <img src="resources/images/information-main.jpg" alt="">
       </div>
-      <div class="guest">
-      <div class="cont3">
-        <img src="resources/images/information-guest-lecture.jpg" alt="">
-      </div>
-          <div class="view2">
-            <h3>Our guest lecture</h3>
-            <p>Join a keynote with Oliver Sack</p>
-            <p>about music in medical treatment</p>
+       <div class="container_2">
+         <h2>It does not hurt to keep practising</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem est tempora, impedit vitae laborum eum enim eaque illo mollitia libero voluptatum amet odit odio ipsam magni voluptas quaerat ipsa omnis!</p>
+       </div>
+     </div>
+     <div class="sec_col2">
+       <div class="col_row">
+          <div class="row-img">
+             <img src="resources/images/information-orientation.jpg" alt="">
+          </div>
+          <div class="row-txt" id="par1">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
             <a href="#">Read more</a>
           </div>
+       </div>
+       <div class="col_row">
+         <div class="row-img">
+            <img src="resources/images/information-campus.jpg" alt="">
+         </div>
+         <div class="row-txt" id="par2">
+           <h2>Our Campus</h2>
+           <p>Find which campusis close by you</p>
+           <a href="#">Read more</a>
+         </div>
+       </div>
 
+       <div class="col_row" id="last-row">
+         <div class="row-img">
+           <img src="resources/images/information-guest-lecture.jpg" alt="">
+         </div>
+         <div class="row-txt" id="par3">
+           <h2>Our guest lecture</h2>
+           <p>Join a keynote with Oliver Sack</p>
+            <p>About music in medical treatment</p>
+           <a href="#">Read more</a>
+         </div>
+       </div>
+       </div>
+       </div>
+
+       <div class="sec_sec-sm">
+         <div class="sec-sm">
+           <div class="image-sm">
+             <img src="resources/images/information-orientation-mobile.jpg" alt="">
+           </div>
+           <div class="txt-sm">
+             <h2>Orientation date</h2>
+             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+             <a href="#">Read more</a>
+           </div>
+        </div>
+
+        <div class="sec-sm">
+          <div class="image-sm">
+            <img src="resources/images/information-campus-mobile.jpg" alt="">
+          </div>
+          <div class="txt-sm">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <a href="#">Read more</a>
+          </div>
+       </div>
+
+       <div class="sec-sm">
+         <div class="image-sm">
+           <img src="resources/images/information-guest-lecture-mobile.jpg" alt="">
+         </div>
+         <div class="txt-sm">
+           <h2>Orientation date</h2>
+           <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+           <a href="#">Read more</a>
+         </div>
       </div>
-  </div>
 
-</div>
+
+       </div>
 
     <!-- Start Learning  -->
-<div class="stl_gray">
-  <div class="sub_head">
-    <h2>Start Learning</h2>
+  <div class="start_learning">
+    <h1>START LEARNING</h1>
+    <div class="sl-main-container">
+
+
+    <div class="sl-row">
+       <div class="col-sl">
+          <div class="img-sl">
+             <img src="resources/images/course-software.jpg" alt="">
+          </div>
+          <div class="desc-sl">
+            <h2>Software enginerring</h2>
+            <p>COURSES</p>
+            <p>Web development, Mobile</p>
+            <p>development, iOT, APIs</p>
+          </div>
+       </div>
+
+       <div class="col-sl">
+          <div class="img-sl">
+             <img src="resources/images/course-computer-art.jpg" alt="">
+          </div>
+          <div class="desc-sl">
+            <h2>Computer art</h2>
+            <p>COURSES</p>
+            <p>Imaging & Design, Web Design</p>
+            <p>Motion Graphics & Visual Effects,</p>
+            <p>Computer Animation</p>
+          </div>
+       </div>
+
+       <div class="col-sl">
+          <div class="img-sl">
+             <img src="resources/images/course-design.jpg" alt="">
+          </div>
+          <div class="desc-sl">
+            <h2>Design</h2>
+            <p>COURSES</p>
+            <p>User Experience Design User</p>
+            <p>Research, Visual Design</p>
+          </div>
+       </div>
+
+    </div>
+    <div class="sl-row" id="sndrow">
+      <div class="col-sl">
+         <div class="img-sl">
+            <img src="resources/images/course-data.jpg" alt="">
+         </div>
+         <div class="desc-sl">
+           <h2>Data</h2>
+           <p>COURSES</p>
+           <p>Data Science, Big data, SQL,</p>
+           <p>Data Visualisation</p>
+         </div>
+      </div>
+
+      <div class="col-sl">
+         <div class="img-sl">
+            <img src="resources/images/course-business.jpg" alt="">
+         </div>
+         <div class="desc-sl">
+           <h2>Business</h2>
+           <p>COURSES</p>
+           <p>Product development, Business</p>
+           <p>Development startup</p>
+         </div>
+      </div>
+
+      <div class="col-sl">
+         <div class="img-sl">
+            <img src="resources/images/course-marketing.jpg" alt="">
+         </div>
+         <div class="desc-sl">
+           <h2>Marketing</h2>
+           <p>COURSES</p>
+           <p>Analytics, Content Marketing,</p>
+           <p>Mobile Marketing</p>
+         </div>
+      </div>
+
+    </div>
+    </div>
   </div>
 
-</div>
+  <div class="start_learning-sm">
+    <div class="sl-sm-head">
+      <h2>Start Learning</h2>
+    </div>
+    <div class="buttons-sm">
+      <span><div>Software engineering</div></span>
+      <span><div>Computer art</div></span>
+      <span><div>Design</div></span>
+      <span><div>Data</div></span>
+      <span><div>Business</div></span>
+      <span><div>Marketing</div></span>
 
-    <!-- Thesis Exhibit  -->
+    </div>
+  </div>
 
-    <!-- The Footer -->
+    <!--END Start Learning  -->
+    <!-- Thesis -->
+     <div class="thesis-main">
+       <h1>Thesis exhibit</h1>
+       <div class="main-thesis-cont">
+         <div class="mt-col1">
+           <div class="video_1">
+             <video src="resources/videos/thesis.mp4"  poster="posterimage.jpg"  controls>
+             </video>
+           </div>
+           <div class="mt-descr">
+             <h2>Reimagine urban</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+             <p>eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+             <p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+             <p>dolor in reprehenderit in voluptate velit esse cillum dolore eu </p>
+             <p>fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
+             <p>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+           </div>
+         </div>
+         <div class="mt-col2">
+              <div class="mt-col2-item1" id="mt-c-itm1-st">
+                 <div class="view1">
+                   <img src="resources/images/thesis-fisma.jpg" alt="">
+                 </div>
+                 <div class="text-view">
+                   <h2>Fisma: Design and Prototype</h2>
+                   <p>Designer showcase of new</p>
+                   <p>prototype product</p>
+
+                 </div>
+              </div>
+
+              <div class="mt-col2-item1" id="mt-c-itm1-nd">
+                 <div class="view1">
+                   <img src="resources/images/thesis-now-and-then.jpg" alt="">
+                 </div>
+                 <div class="text-view">
+                   <h2>Now and then</h2>
+                   <p>Research study about New York</p>
+
+
+                 </div>
+              </div>
+         </div>
+
+       </div>
+
+     </div>
+
+     <div class="thesis-main-sm">
+       <div class="tm-he-sm">
+          <h2>Thesis exhibits</h2>
+       </div>
+       <div class="tm-vid-sm">
+         <video src="resources/videos/thesis.mp4"  poster="posterimage.jpg"  controls>
+         </video>
+       </div>
+       <div class="tm-foot-sm">
+         <span id="span1">&copy2016 Olmar Academy. All rights reserved</span>
+       </div>
+
+     </div>
+
+
+    <!--END Thesis -->
+
+    <!--Footer  -->
+
+    <footer>
+        <!-- footer content -->
+      <span id="span1">&copy2016 Olmar Academy. All rights reserved</span>
+
+      <div class="footer_section2">
+       <div class=" siteFooterButton"><a href="#">Terms</a></div>
+       <div class=" siteFooterButton"><a href="#">Privacy</a></div>
+   </div>
+
+    </footer>
+
+
+    <!--End Footer  -->
 
   </body>
 </html>

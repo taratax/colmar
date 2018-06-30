@@ -1,0 +1,164 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  background-color: white;
+
+}
+
+.siteHeader {
+  display: none;
+}
+.lsn_gray, .sec_sec ,.start_learning,
+ .thesis-main, footer
+{
+  display: none;
+}
+
+.siteHeader-sm {
+  display: flex;
+  justify-content: space-around;
+  height: 64px;
+}
+
+
+.lsn_gray-sm {
+ display: flex;
+ flex-direction: column;
+}
+
+.lsn_gray_pic-sm {
+  height: auto;
+}
+.lsn_gray_pic-sm img {
+  max-width: 100%;
+  height: auto;
+}
+.image-sm img {
+  width: 100%;
+  height: auto;
+}
+
+.lsn_gray_desc-sm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.txt-view-sm {
+  /* border: 1px solid black; */
+}
+
+.lsn_gray_desc-sm .button-sm {
+  background-color: #9B9B9B;
+  width: auto;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/* keep practising */
+
+.sec_sec-sm {
+  display: flex;
+  flex-direction: column;
+}
+.sec-sm {
+  /* border: 1px solid black; */
+}
+
+.image-sm  {
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  /* border: 1px solid red; */
+}
+
+.txt-sm {
+  padding-left: 16px;
+
+  padding-right: 16px;
+  /* padding-top: 16px; */
+
+  margin-bottom: 64px;
+}
+/* end keep practising */
+
+/* start learning  */
+
+.start_learning-sm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+
+.buttons-sm {
+  display: flex;
+  flex-direction: column;
+
+}
+.buttons-sm span  {
+  background-color: #D8D8D8;
+  width: auto;
+
+  padding-top: 16px;
+  padding-bottom: 24px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+
+.buttons-sm span div {
+  margin-left: 16px;
+  margin-bottom: 24px;
+  margin-top: 16px;
+  font-size: 20px;
+}
+}
+.bttn-sm {
+  /* margin-left: 16px; */
+}
+
+.sl-sm-head {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  text-align: center;
+  border-top: 1px solid lightgray;
+}
+
+
+/* END start learning  */
+
+/* Thesis main */
+.thesis-main-sm {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid lightgray;
+}
+.tm-vid-sm video {
+
+    height: auto;
+    max-width: 100%;
+
+}
+
+.tm-he-sm {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.tm-foot-sm {
+  padding-bottom: 16px;
+  padding-top: 38px;
+  padding-left: 16px;
+}
+/*END  Thesis main  */
